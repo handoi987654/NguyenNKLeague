@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="layout" template="/layout.jsp">
+        <put-attribute name="menu" value="/menu.jsp"/>
+        <put-attribute name="title"/>
+        <put-attribute name="body"/>
+    </definition>
+
+    <definition name="home" extends="layout">
+        <put-attribute name="title" value="Home"/>
+        <put-attribute name="body" value="/home.jsp"/>
+    </definition>
+    <definition name="league-clubs" extends="layout">
+        <put-attribute name="title" value="League"/>
+        <put-attribute name="body" value="/league-clubs.jsp"/>
+    </definition>
+    <definition name="league-add-club" extends="layout">
+        <put-attribute name="title" value="Add Club to League"/>
+        <put-attribute name="body" value="/league-add-club.jsp"/>
+    </definition>
+    <definition name="club-list" extends="layout">
+        <put-attribute name="title" value="Clubs"/>
+        <put-attribute name="body" value="/club-list.jsp"/>
+    </definition>
+    <definition name="club-form" extends="layout">
+        <put-attribute name="title" value="Add Club"/>
+        <put-attribute name="body" value="/club-form.jsp"/>
+    </definition>
+    <definition name="match-list" extends="layout">
+        <put-attribute name="title" value="Matches"/>
+        <put-attribute name="body" value="/match-list.jsp"/>
+    </definition>
+    <definition name="match-form" extends="layout">
+        <put-attribute name="title" value="Add a Match"/>
+        <put-attribute name="body" value="/match-form.jsp"/>
+    </definition>
+    <definition name="rank" extends="layout">
+        <put-attribute name="title" value="Club Ranks"/>
+        <put-attribute name="body" value="/rank.jsp"/>
+    </definition>
+    <definition name="player-list" extends="layout">
+        <put-attribute name="title" value="Player List"/>
+        <put-attribute name="body" value="/player-list.jsp"/>
+    </definition>
+    <definition name="player-form" extends="layout">
+        <put-attribute name="title" value="Player Form"/>
+        <put-attribute name="body" value="/player-form.jsp"/>
+    </definition>
+</tiles-definitions>

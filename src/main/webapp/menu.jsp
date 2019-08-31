@@ -1,0 +1,9 @@
+<a href="${pageContext.request.contextPath}/league/list-club">League</a> |
+<a href="${pageContext.request.contextPath}/league/new-club">Add Club To League</a> |
+<a href="${pageContext.request.contextPath}/club/list">List Club</a> |
+<a href="${pageContext.request.contextPath}/club/new">Add Club</a> |
+<a href="${pageContext.request.contextPath}/match/list">List Match</a> |
+<a href="${pageContext.request.contextPath}/match/new">Add Match</a> |
+<a href="${pageContext.request.contextPath}/club/rank">Club Rank</a> |
+<a href="${pageContext.request.contextPath}/player/list">Player List</a> |
+<a href="${pageContext.request.contextPath}/player/new">Add Player</a>
